@@ -1,0 +1,163 @@
+html, body {
+ margin:0;
+ padding:0;
+ }
+
+html{
+background-color:#0C0C0C;
+background-size: 100% 100%;
+height:200%;
+width:100%;}
+
+.parallax { 
+    /* The image used */
+    background-image: url("assets/Background.png");
+
+    /* Set a specific height */
+    height: 100%; 
+
+    /* EFFET DE SCROLL */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+	padding-top:10vh;
+
+}
+
+.menlo{
+background-color:white;
+font-family:menlo;
+font-size:2rem;
+text-align:center;
+
+padding: 15px 32px;
+margin-top:0vh;
+margin-left:5vw;
+margin-right:70vw;
+}
+
+.Portrait{
+  float:right;
+  position : absolute;
+  min-width:45%;
+  min-height:auto;
+  max-width:45%;
+  max-height:auto;
+  padding-top: 50vh;
+  padding-left:45vw;
+  opacity: 0;  
+  
+  -webkit-animation: Gradient ease 2s forwards;
+	-moz-animation: Gradient ease 2s forwards;
+	animation: Gradient ease 2s forwards;
+	}
+
+@-webkit-keyframes Gradient {
+
+	0% {
+	padding-top:20vh;
+	opacity: 0;
+	}
+
+
+
+	100% {
+	padding-top:10vh;
+	opacity: 1;
+	}
+}
+
+@-moz-keyframes Gradient {
+
+
+	0% {
+	padding-top:20vh;
+	opacity: 0;
+	}
+
+
+
+	100% {
+	padding-top:10vh;
+	opacity: 1;
+	}
+}
+
+@keyframes Gradient {
+
+	0% {
+	padding-top:20vh;
+	opacity: 0;
+	}
+
+
+
+	100% {
+	padding-top:15vh;
+	opacity: 1;
+	}
+}
+
+.Portrait1{
+  float:right;
+  position : absolute;
+  min-width:45%;
+  min-height:auto;
+  max-width:50%;
+  max-height:auto;
+  padding-top: 10vh;
+  padding-left:42vw;
+  opacity: 0;  
+  
+  -webkit-animation: Gradient ease 4s forwards;
+	-moz-animation: Gradient ease 4s forwards;
+	animation: Gradient ease 4s forwards;
+	}
+
+@-webkit-keyframes Gradient {
+
+	0% {
+	padding-top:20vh;
+	opacity: 0;
+	}
+
+
+
+	100% {
+	padding-top:10vh;
+	opacity: 1;
+	}
+}
+
+@-moz-keyframes Gradient {
+
+
+	0% {
+	padding-top:20vh;
+	opacity: 0;
+	}
+
+	100% {
+	padding-top:10vh;
+	opacity: 1;
+	}
+}
+
+@keyframes Gradient {
+
+	0% {
+	padding-top:20vh;
+	opacity: 0;
+	}
+
+
+
+	100% {
+		padding-top:5vh;
+opacity: 1;
+	}
+}
+
