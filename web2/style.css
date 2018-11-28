@@ -30,13 +30,14 @@ width:100%;}
 .menlo{
 background-color:white;
 font-family:menlo;
-font-size:2rem;
+font-size:1vw;
 text-align:center;
 
 padding: 15px 32px;
+
 margin-top:0vh;
 margin-left:5vw;
-margin-right:70vw;
+margin-right:75vw;
 }
 
 .Portrait{
